@@ -1,2 +1,0 @@
-# ORM
-Object relational mapping 
