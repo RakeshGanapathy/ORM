@@ -28,7 +28,7 @@ public class UserDetails {
 	private Date date;
 	@Column(name = "user_ddress")
 	@ElementCollection
-	private Set<Address> setOfAddress = new HashSet<>();
+	private Set<Address> setOfAddress = new HashSet();
 
 	public Set<Address> getSetOfAddress() {
 		return setOfAddress;
